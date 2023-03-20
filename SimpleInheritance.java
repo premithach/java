@@ -6,7 +6,6 @@ class A
 		System.out.println("i and j: " + i + " " + j);
 	}
 }
-
 //create a subclass by extending class A
 class B extends A{
 	int k;
@@ -19,7 +18,6 @@ class B extends A{
 		System.out.println("i+j+k: " + (i+j+k));
 	}
 }
-
 class SimpleInheritance{
 	public static void main(String args[]){
 		A superOb = new A();
